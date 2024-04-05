@@ -4,10 +4,10 @@ import re
 id_pattern = re.compile(r'^.\d+$')
 
 
-token = 2003292330:AAGtSPHuLcmuw9MBJ8Z4htzp-J4jj2n0ALw
-app_id = 16196011
-app_hash = e8bbe090ede2a42468454385dafcc0b7
-allowed = 1428791481
+token = "2003292330:AAGtSPHuLcmuw9MBJ8Z4htzp-J4jj2n0ALw"
+app_id = int(16196011)
+app_hash = "e8bbe090ede2a42468454385dafcc0b7"
+allowed = [int(user) if id_pattern.search(user) else user for user in os.environ.get('AUTH_USERS', '1428791481').split()]
 
 help_text = """
 Hello I'm Terminal Bot which will Execute your Commands.
