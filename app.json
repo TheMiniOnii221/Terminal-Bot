@@ -4,19 +4,19 @@
   "env": {
     "TOKEN": {
       "description": "bot token from @BotFather",
-      "value": ""
+      "value": "2003292330:AAGtSPHuLcmuw9MBJ8Z4htzp-J4jj2n0ALw"
     },
     "APP_ID": {
       "description": "Get this value from my.telegram.org",
-      "value": ""
+      "value": "16196011"
     },
     "API_HASH": {
       "description": "Get this value from my.telegram.org",
-      "value": ""
+      "value": "e8bbe090ede2a42468454385dafcc0b7"
     },
     "AUTH_USERS": {
       "description": "Username or ID of users to give access of the bot, Separate multiple users by space.",
-      "value": ""
+      "value": "1428791481"
     }
   },
   "buildpacks": [{
