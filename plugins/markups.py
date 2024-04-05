@@ -2,7 +2,6 @@ import os
 import shutil
 from typing import List
 import sys
-from disk import Path
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery, ForceReply
 from pyrogram.errors import MessageNotModified, ReplyMarkupInvalid
