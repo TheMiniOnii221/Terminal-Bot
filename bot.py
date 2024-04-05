@@ -1,4 +1,3 @@
-import scikit-learn
 import asyncio
 import logging
 import config
